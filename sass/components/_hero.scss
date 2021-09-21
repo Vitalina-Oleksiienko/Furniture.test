@@ -1,0 +1,24 @@
+.hero {
+  margin-top: 15px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--title-color, #2f303a);
+  padding: 0px 0;
+  text-align: center;
+  max-width: 1920px;
+  height: 785px;
+  background-image: url(/images/Hero.jpg);
+
+  //transform: matrix(-1, 0, 0, 1, 0, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title {
+  background-color: var(--list-color);
+  width: 462px;
+  height: 670px;
+  margin-left: 51px;
+}
