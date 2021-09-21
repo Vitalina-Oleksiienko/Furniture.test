@@ -13,71 +13,119 @@
 
 </head>
 <body>
-    <header>
-        <p>Ми в соціальних мережах:</p>
-        <ul>
-            <li>
-                <a href="">
-                    <svg class="" width="40" height="40">
-                        <use href="./images/sprite (2).svg#Telegram"></use>
+    <header class="container">
+        <div class="header-nav">
+            <div class="header-left" >
+                <p class="header-title" >Ми в соціальних мережах:</p>
+                <ul class="header-social">
+                    <li class="header-social__item">
+                        <a href="">
+                            <svg class="" width="40" height="40">
+                                <use href="./images/sprite (2).svg#Telegram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header-social__item">
+                        <a href="">
+                            <svg width="40" height="40">
+                                <use href="./images/sprite (2).svg#Facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header-social__item">
+                        <a href="">
+                            <svg width="40" height="40">
+                                <use href="./images/sprite (2).svg#Instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <a class="header-phone" href="tel: (099) 111 22 33">
+                    <svg width="24" height="24">
+                        <use href="./images/sprite (2).svg#smartphone"></use>
+                    </svg> (099) 111 22 33 <svg width="24" height="24">
+                        <use href="./images/sprite (2).svg#chevron-right"></use>
                     </svg>
                 </a>
-            </li>
-            <li>
-                <a href="">
-                    <svg width="40" height="40">
-                        <use href="./images/sprite (2).svg#Facebook"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <svg width="40" height="40">
-                        <use href="./images/sprite (2).svg#Instagram"></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
-        <a href="tel: (099) 111 22 33">
-            <svg width="24" height="24">
-                <use href="./images/sprite (2).svg#smartphone"></use>
-            </svg> (099) 111 22 33 <svg width="24" height="24">
-                <use href="./images/sprite (2).svg#chevron-right"></use>
-            </svg>
-        </a>
+            </div>
+            
+            
+            <ul class="header-menu">
+                <li class="header-menu__item ">
+                    <a  href="" class="header-menu__item-current">Головна</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="">АкцІї</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="">Доставка та оплата</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="">про нас</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="">контакти</a>
+                </li>
+            </ul>
+        </div>
         
-        <ul>
-            <li> 
-            <a href="">Головна</a>    
-            </li>
-            <li>
-                <a href="">АкцІї</a>
-            </li>
-            <li>
-                <a href="">Доставка та оплата</a>
-            </li>
-            <li>
-                <a href="">про нас</a>
-            </li>
-            <li>
-                <a href="">контакти</a>
-            </li>
-        </ul>
-
-        <ul>
-            <li>Дивани</li>
-            <li>ліжка</li>
-            <li>Крісла</li>
-            <li>комоди</li>
-            <li>шафи</li>
-            <li>Кухня</li>
-        </ul>
-        <p>Furniture.test</p>
-        <p>Кошик</p>
-        <button>Замовити дзвінок</button>
+        <div class="header-bottom">
+            <div class="header-bottom__left">
+                <ul class="header-filter">
+                    <li>Дивани
+                        <svg width="20" height="20">
+                            <use href="./images/sprite (2).svg#chevron-right"></use>
+                        </svg>
+                    </li>
+                    <li>ліжка
+                        <svg width="20" height="20">
+                            <use href="./images/sprite (2).svg#chevron-right"></use>
+                        </svg>
+                    </li>
+                    <li>Крісла
+                        <svg width="20" height="20">
+                            <use href="./images/sprite (2).svg#chevron-right"></use>
+                        </svg>
+                    </li>
+                    <li>комоди
+                        <svg width="20" height="20">
+                            <use href="./images/sprite (2).svg#chevron-right"></use>
+                        </svg>
+                    </li>
+                    <li>шафи
+                        <svg width="20" height="20">
+                            <use href="./images/sprite (2).svg#chevron-right"></use>
+                        </svg>
+                    </li>
+                    <li>Кухня
+                        <svg width="20" height="20">
+                            <use href="./images/sprite (2).svg#chevron-right"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-bottom__center">
+                <p class="header-logo">
+                    <svg class="header-logo__svg" width="125" height="75">
+                        <use href="./images/sprite (2).svg#OBJECTS"></use>
+                    </svg>
+                    <span class="header-logo__text">Furniture.test</span>
+                    
+                </p>
+            </div>
+            <div class="header-bottom__right">
+                <p class="header-cart"><svg width="30" height="30">
+                        <use href="./images/sprite (2).svg#shopping-cart"></use>
+                    </svg>
+                    Кошик</p>
+                <button class="header-button">Замовити дзвінок</button>
+            </div>
+            
+        </div>
+        
 
     </header>
-    <main>
+    <main class="container">
         <!--hero-->
         <section>
             <div>
@@ -201,71 +249,72 @@
                 консультації.</p>
             </div>
         </section>
-        <!--Footer section-->
-        <footer>
-            <h3>Furniture.test</h3>
-            <ul>
-                <li><a href="">— Дивани</a>
-                </li>
-                <li><a href="">— ліжка</a>
-                </li>
-                <li><a href="">— Крісла</a>
-                </li>
-                <li><a href="">— шафи</a>
-                </li>
-                <li><a href="">— Кухні</a>    
-                </li>
-                <li><a href="">— комоди</a>
-                </li>
-            </ul>
-            <ul>
-                <li><a href="">— АкцІї</a>>
-                </li>
-                <li><a href="">— Доставка та оплата</a>
-                </li>
-                <li><a href="">— про нас</a>
-                </li>
-                <li><a href="">— контакти</a>
-                </li>
-            </ul>
-            <div>
-                <ul>
-                    <li><a href="">test</a></li>
-                    <li><a href="">С 8.00 до 20.00 каждый день</a></li>
-                    <li><a href="">(099) 222 33 44 (099) 111 22 33</a></li>
-                </ul>
-                <p>Ми в соціальних мережах:</p>
-                <ul>
-                    <li>
-                        <a href="">
-                            <svg>
-                                <use></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <svg>
-                                <use></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <svg>
-                                <use></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <p>© ТОВ Furniture, працюємо з 2006 року</p>
-            <a href="">Глянець — розробка інтернет-магазинів
-                <svg>
-                    <use></use>
-                </svg>
-            </a>
-        </footer>
+        
     </main>
+    <!--Footer section-->
+    <footer class="container">
+        <h3>Furniture.test</h3>
+        <ul>
+            <li><a href="">— Дивани</a>
+            </li>
+            <li><a href="">— ліжка</a>
+            </li>
+            <li><a href="">— Крісла</a>
+            </li>
+            <li><a href="">— шафи</a>
+            </li>
+            <li><a href="">— Кухні</a>
+            </li>
+            <li><a href="">— комоди</a>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="">— АкцІї</a>>
+            </li>
+            <li><a href="">— Доставка та оплата</a>
+            </li>
+            <li><a href="">— про нас</a>
+            </li>
+            <li><a href="">— контакти</a>
+            </li>
+        </ul>
+        <div>
+            <ul>
+                <li><a href="">test</a></li>
+                <li><a href="">С 8.00 до 20.00 каждый день</a></li>
+                <li><a href="">(099) 222 33 44 (099) 111 22 33</a></li>
+            </ul>
+            <p>Ми в соціальних мережах:</p>
+            <ul>
+                <li>
+                    <a href="">
+                        <svg>
+                            <use></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg>
+                            <use></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg>
+                            <use></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>© ТОВ Furniture, працюємо з 2006 року</p>
+        <a href="">Глянець — розробка інтернет-магазинів
+            <svg>
+                <use></use>
+            </svg>
+        </a>
+    </footer>
 </body>
 </html>
