@@ -48,7 +48,7 @@
       </clipPath>
     </defs>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="living-room 1">
+  <symbol fill="none"  viewBox="0 0 100 100" id="living-room 1">
     <g clip-path="url(#a)" fill="#1E2E36">
       <path d="M46.666 87.18H16.765a4.511 4.511 0 0 1-4.507-4.507V71.057a4.512 4.512 0 0 1 4.507-4.507h29.9a4.512 4.512 0 0 1 4.507 4.507v11.616a4.511 4.511 0 0 1-4.506 4.506ZM16.765 68.893a2.165 2.165 0 0 0-2.163 2.163v11.615a2.165 2.165 0 0 0 2.163 2.163h29.9a2.165 2.165 0 0 0 2.163-2.162V71.056a2.165 2.165 0 0 0-2.163-2.163h-29.9Z"></path>
       <path d="M10.095 87.18H4.506A4.512 4.512 0 0 1 0 82.672V60.436a4.512 4.512 0 0 1 4.506-4.507h5.59a4.511 4.511 0 0 1 4.506 4.507v22.237a4.511 4.511 0 0 1-4.507 4.506ZM4.506 58.272a2.165 2.165 0 0 0-2.162 2.163v22.237a2.165 2.165 0 0 0 2.162 2.162h5.59a2.165 2.165 0 0 0 2.162-2.162V60.436a2.165 2.165 0 0 0-2.163-2.163H4.506Z"></path>
@@ -81,7 +81,7 @@
       </clipPath>
     </defs>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="smartphone 1">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="smartphone">
     <path d="M17 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2ZM12 18h.01" stroke="#1E2E36" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
   </symbol>
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="Telegram">
