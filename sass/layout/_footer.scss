@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
   height: 520px;
   margin-bottom: 15px;
 
@@ -7,4 +8,21 @@
 .footer-img {
   width: 1089px;
   float: right;
+}
+
+.footer-text {
+  position: absolute;
+  z-index: 5;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+
+  text-transform: uppercase;
+  color: var(--list-color);
+}
+
+.footer-text__item {
+  color: var(--list-color);
 }

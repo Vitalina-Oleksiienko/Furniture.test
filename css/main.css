@@ -20,8 +20,7 @@ body {
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 hr {
@@ -42,8 +41,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
-    monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   font-size: 1em;
 }
 
@@ -163,24 +161,6 @@ header {
   width: 1920px;
   height: 165px;
 }
-
-/*img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-@media screen and (max-width: 320px) {
-  img {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  img {
-    width: 100%;
-  }
-}*/
 
 a {
   text-decoration: none;
@@ -334,6 +314,34 @@ h3 {
   margin-bottom: 0;
 }
 
+.footer {
+  position: relative;
+  height: 520px;
+  margin-bottom: 15px;
+  background-color: var(--text-color);
+}
+
+.footer-img {
+  width: 1089px;
+  float: right;
+}
+
+.footer-text {
+  position: absolute;
+  z-index: 5;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: var(--list-color);
+}
+
+.footer-text__item {
+  color: var(--list-color);
+}
+
 .hero {
   margin-top: 15px;
   margin-bottom: 0;
@@ -364,6 +372,7 @@ h3 {
   font-size: 48px;
   line-height: 125%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .advantage {
@@ -373,7 +382,12 @@ h3 {
   max-width: calc(100%-100px);
 }
 
+.categories-section {
+  margin-bottom: 100px;
+}
+
 .categories-title {
+  margin-bottom: 50px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -388,6 +402,7 @@ h3 {
   grid-gap: 1px 199px;
   max-width: calc(100%-100px);
   margin-left: 200px;
+  margin-bottom: 84px;
 }
 
 .categories-text {
@@ -435,9 +450,11 @@ h3 {
 .questions-img {
   width: 1561px;
   float: left;
+  margin-bottom: 109px;
 }
 
 .question {
   height: 785px;
+  margin-bottom: 100px;
 }
 /*# sourceMappingURL=main.css.map */
