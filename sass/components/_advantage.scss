@@ -7,3 +7,12 @@
 
   text-align: center;
 }
+.advantage {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(586px, 1fr));
+  grid-gap: 40px 40px;
+  max-width: calc(100%-100px);
+}
+.advantage-item {
+}

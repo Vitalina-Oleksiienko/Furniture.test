@@ -8,8 +8,47 @@
   text-align: center;
 }
 .categories {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 1px 199px;
+  max-width: calc(100%-100px);
+
+  margin-left: 200px;
 }
 .categories-item {
+}
+.categories-text {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.categories-item__bed {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(586px, 1fr));
+  grid-gap: 1px 199px;
+  max-width: calc(100%-100px);
+}
+
+.categories-button {
+  //position: absolute;
+  width: 190px;
+  height: 51px;
+  //left: 865px;
+  //top: 2769px;
+
+  background: var(--logo-color);
+  border-radius: 3px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+
+  text-transform: uppercase;
+
+  color: var(--list-color);
 }
