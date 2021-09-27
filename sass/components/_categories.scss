@@ -18,10 +18,19 @@
   grid-gap: 1px 199px;
   max-width: calc(100%-100px);
 
-  margin-left: 200px;
+  //margin-left: 200px;
   margin-bottom: 84px;
 }
 .categories-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+.categories-item__svg {
+  fill: var(--text-color);
+}
+.categories-item__svg:hover,
+.categories-item__svg:focus {
+  fill: var(--logo-color);
 }
 .categories-text {
   text-align: center;
@@ -33,7 +42,7 @@
   display: grid;
 
   grid-template-columns: repeat(auto-fill, minmax(586px, 1fr));
-  grid-gap: 1px 199px;
+  grid-gap: 1px 19px;
   max-width: calc(100%-100px);
 }
 
