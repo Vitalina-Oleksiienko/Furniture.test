@@ -1,4 +1,5 @@
 .hero {
+  position: relative;
   margin-top: 15px;
   margin-bottom: 0;
   margin-left: auto;
@@ -21,4 +22,72 @@
   width: 462px;
   height: 670px;
   margin-left: 51px;
+}
+.hero-line {
+  position: absolute;
+
+  width: 15px;
+  height: 670px;
+  left: 37px;
+  top: 1px;
+
+  background: var(--logo-color);
+}
+.hero-new {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100%;
+
+  color: #1e2e36;
+
+  //margin: 99px 90px 50px 91px;
+}
+.hero-text {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 125%;
+
+  color: #1e2e36;
+}
+.hero-info {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 125%;
+
+  text-align: center;
+
+  color: #1e2e36;
+}
+.hero-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 46px;
+
+  position: absolute;
+  width: 209px;
+  height: 51px;
+  left: 178px;
+  //top: 553px;
+
+  background: #44c697;
+  border-radius: 3px;
+}
+.hero-date {
+  position: static;
+  width: 81px;
+  height: 45px;
+  left: calc(50% - 81px / 2);
+  top: calc(50% - 45px / 2 - 17.5px);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 5px 0px;
 }

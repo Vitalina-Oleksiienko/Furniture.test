@@ -347,6 +347,7 @@ h3 {
 }
 
 .hero {
+  position: relative;
   margin-top: 15px;
   margin-bottom: 0;
   margin-left: auto;
@@ -367,6 +368,68 @@ h3 {
   width: 462px;
   height: 670px;
   margin-left: 51px;
+}
+
+.hero-line {
+  position: absolute;
+  width: 15px;
+  height: 670px;
+  left: 37px;
+  top: 1px;
+  background: var(--logo-color);
+}
+
+.hero-new {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100%;
+  color: #1e2e36;
+}
+
+.hero-text {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 125%;
+  color: #1e2e36;
+}
+
+.hero-info {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 125%;
+  text-align: center;
+  color: #1e2e36;
+}
+
+.hero-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 46px;
+  position: absolute;
+  width: 209px;
+  height: 51px;
+  left: 178px;
+  background: #44c697;
+  border-radius: 3px;
+}
+
+.hero-date {
+  position: static;
+  width: 81px;
+  height: 45px;
+  left: calc(50% - 81px / 2);
+  top: calc(50% - 45px / 2 - 17.5px);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 5px 0px;
 }
 
 .advantage-title {
@@ -436,6 +499,9 @@ h3 {
 }
 
 .categories-button {
+  position: relative;
+  display: block;
+  margin: 0 auto;
   width: 190px;
   height: 51px;
   background: var(--logo-color);
@@ -456,15 +522,53 @@ h3 {
 }
 
 .about-us__text {
+  position: absolute;
+  z-index: 2;
   clear: both;
+  width: 791px;
+  background-color: var(--list-color);
+  padding: 50px 30px 50px 51px;
+  top: 3260px;
 }
 
 .about-us__img {
+  position: relative;
   width: 1407px;
   float: right;
 }
 
+.first-word {
+  display: inline;
+  color: var(--logo-color);
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.about-us__info {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 125%;
+}
+
+.line {
+  position: absolute;
+  z-index: 3;
+  width: 15px;
+  height: 465px;
+  left: 906px;
+  top: 3260px;
+  background: #44c697;
+  border-radius: 0px 3px 3px 0px;
+}
+
 .questions-img {
+  position: relative;
   width: 1561px;
   float: left;
   margin-bottom: 109px;
@@ -473,5 +577,86 @@ h3 {
 .question {
   height: 785px;
   margin-bottom: 100px;
+}
+
+.question-form {
+  position: absolute;
+  z-index: 4;
+  width: 528px;
+  height: 457px;
+  left: 1392px;
+  top: 4185px;
+  background-color: var(--list-color);
+}
+
+.line-form {
+  position: absolute;
+  width: 15px;
+  height: 457px;
+  left: 1377px;
+  top: 4186px;
+  background: #44c697;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.question-title {
+  margin: 50px 99px 30px 30px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 125%;
+  text-align: center;
+}
+
+.question-input {
+  width: 432px;
+  height: 51px;
+  margin: 0 51px 15px 30px;
+  padding: 14px 15px;
+  background: var(--list-color);
+  border: 1px solid #1e2e36;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.question-input__label {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 125%;
+  color: #1e2e36;
+  opacity: 0.6;
+}
+
+.question-button {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 432px;
+  height: 51px;
+  margin-left: 30px;
+  background: #44c697;
+  border-radius: 3px;
+}
+
+.question-text {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 125%;
+  align-items: center;
+  color: var(--text-color);
+  width: 395px;
+  height: 69px;
+  margin-left: 30px;
+  margin-right: 88px;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */

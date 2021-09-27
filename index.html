@@ -136,12 +136,25 @@
       <!--hero-->
       <section class="hero">
         <div class="container hero-title">
-          <h1>Новинка!</h1>
-          <p>Ліжко Ornella</p>
-          <p>Це новий рівень комфортного сну</p>
-          <button>Детальніше</button>
-          <p>01/04</p>
+          <h1 class="hero-new">Новинка!</h1>
+          <p class="hero-text">Ліжко Ornella</p>
+          <p class="hero-info">Це новий рівень комфортного сну</p>
+          <button class="hero-button">Детальніше</button>
+          <p class="hero-date">01/04</p>
+          <svg width="38" height="45">
+            <use href="./images/sprite (2).svg#01"></use>
+          </svg>
+          <svg width="44" height="30">
+            <use href="./images/sprite (2).svg#04"></use>
+          </svg>
+          <svg width="30" height="30">
+            <use href="./images/sprite (2).svg#Left"></use>
+          </svg>
+          <svg width="30" height="30">
+            <use href="./images/sprite (2).svg#Right"></use>
+          </svg>
         </div>
+        <div class="hero-line"></div>
       </section>
       <!--advantage-->
       <section>
@@ -282,35 +295,37 @@
 
       <!--About us-->
       <section class="about-us">
-        <div class="about-us__text container">
+        <div class="container">
           <h2 class="advantage-title">Про нас</h2>
         
           <img class="about-us__img" src="./images/About us.jpg" alt="дві дівчини і хлопець">
-          <p class="">
-            "Furniture" – "Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-          <p class="about-us__textq">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-          <p class="about-us__textq">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure
-          </p>
-          
+          <div class="about-us__text" >
+            <p class="about-us__info">
+              <div class="first-word">"Furniture"</div> –<span class="about-us__info"> "Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum."</span>
+            </p>
+            <p class="about-us__info">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <p class="about-us__info">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure
+            </p>
+          </div>
+          <div class="line"></div>
 
         </div>
         
@@ -319,16 +334,19 @@
       <section class="question">
         <h2 class="advantage-title">Залишились питання?</h2>
         <img class="questions-img" src="./images/Questions.jpg" alt="меблі">
-        <div>
-          <h3>Замовте консультацію</h3>
-          <input type="Ім'я" />
-          <input type="Номер телефону" />
-          <button>ВІдправити</button>
-          <p>
+        <div class="question-form">
+          <h3 class="question-title">Замовте консультацію</h3>
+          <input class="question-input" type="Ім'я" id="Ім'я" placeholder="Ім'я"/>
+          
+          <input class="question-input" type="Номер телефону" placeholder="Номер телефону" />
+          
+          <button class="question-button">ВІдправити</button>
+          <p class="question-text">
             Залиште заявку або телефонуйте за номером (099) 111 22 33, і наш
             менеджер звяжеться з вами для кваліфікованої консультації.
           </p>
         </div>
+        <div class="line-form"></div>
       </section>
     </main>
     <!--Footer section-->

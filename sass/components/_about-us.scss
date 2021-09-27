@@ -7,10 +7,47 @@
 
 .about-us__text {
   //padding-bottom: 100px;
+  position: absolute;
+  z-index: 2;
   clear: both;
+  width: 791px;
+  background-color: var(--list-color);
+  padding: 50px 30px 50px 51px;
+  top: 3260px;
 }
 
 .about-us__img {
+  position: relative;
   width: 1407px;
   float: right;
+}
+.first-word {
+  display: inline;
+  color: var(--logo-color);
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+
+  text-transform: uppercase;
+}
+.about-us__info {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 125%;
+}
+
+.line {
+  position: absolute;
+  z-index: 3;
+  width: 15px;
+  height: 465px;
+  left: 906px;
+  top: 3260px;
+
+  background: #44c697;
+  border-radius: 0px 3px 3px 0px;
 }
