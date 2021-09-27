@@ -342,6 +342,10 @@ h3 {
   color: var(--list-color);
 }
 
+.footer-social__svg {
+  fill: aliceblue;
+}
+
 .hero {
   margin-top: 15px;
   margin-bottom: 0;
