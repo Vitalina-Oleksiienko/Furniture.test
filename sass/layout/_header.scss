@@ -109,7 +109,7 @@
 .header-filter__item:not(:last-child) {
   margin-right: 15px;
 }
-.header-button {
+.header-button__text {
   //display: flex;
   flex-direction: row;
   align-items: center;
@@ -118,8 +118,20 @@
   text-transform: uppercase;
   background: var(--logo-color);
   border-radius: 3px;
-}
 
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.header-button {
+  padding-top: 27px;
+}
 .header-logo {
   font-family: Proxima Nova;
   font-style: normal;
@@ -143,6 +155,7 @@
 
 .header-bottom {
   display: inline-flex;
+  line-height: 50%;
 }
 .header-bottom__left {
   //margin-top: 41px;
@@ -157,4 +170,18 @@
   margin-right: 30px;
   //margin-top: 0;
   margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 37.5px;
+}
+
+.header-cart__text {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+
+  text-transform: uppercase;
+
+  color: #1e2e36;
 }

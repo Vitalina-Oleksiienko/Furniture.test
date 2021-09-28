@@ -297,13 +297,24 @@ h3 {
   margin-right: 15px;
 }
 
-.header-button {
+.header-button__text {
   flex-direction: row;
   align-items: center;
   padding: 14px 46px;
   text-transform: uppercase;
   background: var(--logo-color);
   border-radius: 3px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.header-button {
+  padding-top: 27px;
 }
 
 .header-logo {
@@ -329,6 +340,7 @@ h3 {
 
 .header-bottom {
   display: inline-flex;
+  line-height: 50%;
 }
 
 .header-bottom__center {
@@ -342,6 +354,18 @@ h3 {
 .header-cart {
   margin-right: 30px;
   margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 37.5px;
+}
+
+.header-cart__text {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #1e2e36;
 }
 
 .footer {
@@ -416,6 +440,7 @@ h3 {
   line-height: 100%;
   color: #1e2e36;
   margin-top: 0;
+  padding-top: 99px;
 }
 
 .hero-text {
