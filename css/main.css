@@ -199,8 +199,10 @@ h3 {
 .header-left {
   display: inline-flex;
   vertical-align: baseline;
-  margin-right: 700px;
-  width: 546px;
+  margin-right: 650px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -214,11 +216,15 @@ h3 {
   line-height: 125%;
   color: var --text-color;
   margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 8.5px;
+  padding-bottom: 8.5px;
 }
 
 .header-social {
   display: inline-flex;
-  margin-top: 10px 5px 0 0;
+  margin: 0 50px 0 0;
 }
 
 .header-social__item {
@@ -227,6 +233,8 @@ h3 {
 }
 
 .header-phone {
+  display: table;
+  vertical-align: middle;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -234,7 +242,10 @@ h3 {
   line-height: 125%;
   text-transform: uppercase;
   color: var --text-color;
-  margin-top: 18px;
+}
+
+.header-phone__icon {
+  margin-top: 8px;
 }
 
 .header-menu__item-current::after {
@@ -268,7 +279,22 @@ h3 {
 .header-filter {
   display: inline-flex;
   margin-right: 115px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 41px;
+  padding-bottom: 41px;
   text-transform: uppercase;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #1e2e36;
+}
+
+.header-filter__item:not(:last-child) {
+  margin-right: 15px;
 }
 
 .header-button {
@@ -289,20 +315,24 @@ h3 {
   margin: 0;
 }
 
+.header-logo__text {
+  padding-bottom: 15px;
+}
+
 .header-logo::first-letter {
   color: var(--logo-color);
+}
+
+.header-logo__svg {
+  padding-top: 15px;
 }
 
 .header-bottom {
   display: inline-flex;
 }
 
-.header-bottom__left {
-  margin-top: 41px;
-}
-
 .header-bottom__center {
-  margin: 15px 319px 0 0;
+  margin: 0 319px 0 0;
 }
 
 .header-bottom__right {
@@ -348,7 +378,6 @@ h3 {
 
 .hero {
   position: relative;
-  margin-top: 15px;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -386,6 +415,7 @@ h3 {
   font-size: 64px;
   line-height: 100%;
   color: #1e2e36;
+  margin-top: 0;
 }
 
 .hero-text {
@@ -418,6 +448,13 @@ h3 {
   left: 178px;
   background: #44c697;
   border-radius: 3px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: var(--list-color);
 }
 
 .hero-date {
@@ -430,6 +467,10 @@ h3 {
   order: 0;
   flex-grow: 0;
   margin: 5px 0px;
+}
+
+.hero-count {
+  margin-top: 160px;
 }
 
 .advantage-title {

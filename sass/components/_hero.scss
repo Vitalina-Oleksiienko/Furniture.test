@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  margin-top: 15px;
+  //margin-top: 15px;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -42,7 +42,7 @@
 
   color: #1e2e36;
 
-  //margin: 99px 90px 50px 91px;
+  margin-top: 0;
 }
 .hero-text {
   font-family: Proxima Nova;
@@ -78,6 +78,16 @@
 
   background: #44c697;
   border-radius: 3px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+
+  text-transform: uppercase;
+
+  color: var(--list-color);
 }
 .hero-date {
   position: static;
@@ -90,4 +100,8 @@
   order: 0;
   flex-grow: 0;
   margin: 5px 0px;
+}
+
+.hero-count {
+  margin-top: 160px;
 }
