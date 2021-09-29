@@ -819,7 +819,7 @@ h3 {
   margin-right: auto;
 }
 
-.categories-link__svg:hover .categories-item__svg {
+.categories-link__svg:hover {
   fill: var(--logo-color);
 }
 
@@ -832,9 +832,16 @@ h3 {
 .categories-item__bed {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(586px, 1fr));
-  grid-gap: 1px 19px;
-  max-width: calc(100%-100px);
   margin-bottom: 50px;
+}
+
+.categories-bed {
+  width: 586px;
+}
+
+.categories-bed:hover {
+  transform: scale(1.1);
+  background-color: var(--logo-color);
 }
 
 .categories-button {
