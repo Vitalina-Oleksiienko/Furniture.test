@@ -304,6 +304,7 @@ h3 {
   text-transform: uppercase;
   background: var(--logo-color);
   border-radius: 3px;
+  border-color: var(--list-color);
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -330,7 +331,7 @@ h3 {
   padding-bottom: 15px;
 }
 
-.header-logo::first-letter {
+.header-logo__letter {
   color: var(--logo-color);
 }
 
@@ -473,6 +474,7 @@ h3 {
   left: 178px;
   background: #44c697;
   border-radius: 3px;
+  border-color: var(--list-color);
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -515,8 +517,28 @@ h3 {
   max-width: calc(100%-100px);
 }
 
+.advantage-line {
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  height: 50px;
+  left: 825px;
+  top: 994px;
+  background: var(--logo-color);
+}
+
 .categories-section {
   margin-bottom: 100px;
+}
+
+.categories-line {
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  height: 50px;
+  left: 801px;
+  top: 1588px;
+  background: var(--logo-color);
 }
 
 .categories-title {
@@ -572,6 +594,7 @@ h3 {
   height: 51px;
   background: var(--logo-color);
   border-radius: 3px;
+  border-color: var(--logo-color);
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -587,6 +610,16 @@ h3 {
   height: 785px;
 }
 
+.about-us__line {
+  position: absolute;
+  z-index: -2;
+  width: 20px;
+  height: 50px;
+  left: 953px;
+  top: 3069px;
+  background: var(--logo-color);
+}
+
 .about-us__text {
   position: absolute;
   z-index: 2;
@@ -595,6 +628,7 @@ h3 {
   background-color: var(--list-color);
   padding: 50px 30px 50px 51px;
   top: 3260px;
+  left: 0;
 }
 
 .about-us__img {
@@ -627,7 +661,7 @@ h3 {
   z-index: 3;
   width: 15px;
   height: 465px;
-  left: 906px;
+  left: 791px;
   top: 3260px;
   background: #44c697;
   border-radius: 0px 3px 3px 0px;
@@ -638,6 +672,16 @@ h3 {
   width: 1561px;
   float: left;
   margin-bottom: 109px;
+}
+
+.question-line {
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  height: 50px;
+  left: 734px;
+  top: 3953px;
+  background: var(--logo-color);
 }
 
 .question {
@@ -709,6 +753,7 @@ h3 {
   margin-left: 30px;
   background: #44c697;
   border-radius: 3px;
+  border-color: var(--list-color);
 }
 
 .question-text {

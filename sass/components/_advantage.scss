@@ -17,3 +17,13 @@
 }
 .advantage-item {
 }
+.advantage-line {
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  height: 50px;
+  left: 825px;
+  top: 994px;
+
+  background: var(--logo-color);
+}

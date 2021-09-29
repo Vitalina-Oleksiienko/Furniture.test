@@ -4,7 +4,16 @@
   float: left;
   margin-bottom: 109px;
 }
+.question-line {
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  height: 50px;
+  left: 734px;
+  top: 3953px;
 
+  background: var(--logo-color);
+}
 .question {
   height: 785px;
   margin-bottom: 100px;
@@ -82,6 +91,7 @@
   margin-left: 30px;
   background: #44c697;
   border-radius: 3px;
+  border-color: var(--list-color);
 }
 .question-text {
   font-family: Proxima Nova;
