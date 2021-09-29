@@ -258,7 +258,7 @@ h3 {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 15%;
   height: 4px;
   background-color: var(--logo-color);
   border-radius: 2px;
