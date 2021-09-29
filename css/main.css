@@ -823,7 +823,11 @@ h3 {
   margin-right: auto;
 }
 
-.categories-link__svg:hover {
+.categories-item__svg {
+  fill: #1e2e36;
+}
+
+.categories-link__svg:hover .categories-item__svg {
   fill: var(--logo-color);
 }
 
