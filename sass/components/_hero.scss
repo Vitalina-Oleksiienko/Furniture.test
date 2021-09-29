@@ -16,7 +16,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.hero .container {
+  //position: relative;
+}
 .hero-title {
   background-color: var(--list-color);
   width: 462px;

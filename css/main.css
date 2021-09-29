@@ -500,6 +500,12 @@ h3 {
   margin-top: 160px;
 }
 
+.advantage-section {
+  position: relative;
+  width: 1980px;
+  padding: 0 51px 0 0px;
+}
+
 .advantage-title {
   font-family: Proxima Nova;
   font-style: normal;
@@ -522,9 +528,29 @@ h3 {
   z-index: -1;
   width: 20px;
   height: 50px;
-  left: 825px;
-  top: 994px;
+  left: 827px;
+  top: 829px;
   background: var(--logo-color);
+}
+
+.advantage-img {
+  position: relative;
+}
+
+.advantage-img__text {
+  position: absolute;
+  z-index: 1;
+  width: 356px;
+  height: 45px;
+  left: 81px;
+  top: 250px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 125%;
+  text-align: center;
+  color: #ffffff;
 }
 
 .categories-section {
@@ -554,9 +580,184 @@ h3 {
 .categories {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  grid-gap: 1px 199px;
+  grid-gap: 1px 180px;
   max-width: calc(100%-100px);
   margin-bottom: 84px;
+  margin-left: 158px;
+  margin-right: 160px;
+}
+
+.categories-item_info {
+  display: inline-flex;
+}
+
+.categories-bed-name {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1e2e36;
+  margin-right: 166px;
+}
+
+.categories-price {
+  justify-content: flex-end;
+  margin-top: 0;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1e2e36;
+}
+
+.categories-price__red {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff1b1b;
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+.categories-price__sale {
+  margin-top: 0;
+  padding-top: 6px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  color: #bcbdbb;
+}
+
+.categories-new {
+  position: absolute;
+  width: 119px;
+  height: 33px;
+  left: 51px;
+  top: 1947px;
+  background: #1e2e36;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.categories-new__imperia {
+  position: absolute;
+  width: 119px;
+  height: 33px;
+  left: 56px;
+  top: 2427px;
+  background: #1e2e36;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.categories-new__text {
+  margin: 0;
+  padding: 5px 15px;
+}
+
+.categories-hit {
+  position: absolute;
+  width: 143px;
+  height: 33px;
+  left: 689px;
+  top: 1948px;
+  background: #1e2e36;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.categories-hit__text {
+  margin: 0;
+  padding: 5px 5px;
+}
+
+.categories-sale {
+  position: absolute;
+  width: 84px;
+  height: 33px;
+  left: 689px;
+  top: 1987px;
+  background: #ff1b1b;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.categories-sale__text {
+  margin: 0;
+  padding: 5px 15px;
+}
+
+.categories-hit__atlant {
+  position: absolute;
+  width: 143px;
+  height: 33px;
+  left: 1322px;
+  top: 2361px;
+  background: #1e2e36;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.categories-sale__atlant {
+  position: absolute;
+  width: 84px;
+  height: 33px;
+  left: 1322px;
+  top: 2401px;
+  background: #ff1b1b;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .categories-item {
