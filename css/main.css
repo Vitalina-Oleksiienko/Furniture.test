@@ -386,7 +386,7 @@ h3 {
   float: right;
 }
 
-.footer-text {
+.footer-text-left {
   position: absolute;
   z-index: 5;
   font-family: Proxima Nova;
@@ -396,6 +396,18 @@ h3 {
   line-height: 125%;
   text-transform: uppercase;
   color: var(--list-color);
+  background-color: bisque;
+}
+
+.footer-text-right {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #44c697;
+  background-color: chocolate;
 }
 
 .footer-text__item {
