@@ -173,8 +173,13 @@ ul {
   color: var(--peculiarity-color, #212121);
 }
 
+h2 {
+  margin-top: 0;
+}
+
 h3 {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 :root {
@@ -403,7 +408,7 @@ h3 {
 
 .hero {
   position: relative;
-  margin-bottom: 0;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   background: var(--title-color, #2f303a);
@@ -504,6 +509,7 @@ h3 {
   position: relative;
   width: 1980px;
   padding: 0 51px 0 0px;
+  margin-bottom: 100px;
 }
 
 .advantage-title {
@@ -513,7 +519,7 @@ h3 {
   font-size: 48px;
   line-height: 125%;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 52px;
 }
 
 .advantage {
@@ -528,8 +534,8 @@ h3 {
   z-index: -1;
   width: 20px;
   height: 50px;
-  left: 827px;
-  top: 829px;
+  left: 801px;
+  top: 6px;
   background: var(--logo-color);
 }
 
@@ -553,6 +559,21 @@ h3 {
   color: #ffffff;
 }
 
+.advantage-img__text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--logo-color);
+  border-radius: 2px;
+}
+
+.advantage-img__text-hover {
+  display: none;
+}
+
 .categories-section {
   margin-bottom: 100px;
 }
@@ -562,8 +583,8 @@ h3 {
   z-index: -1;
   width: 20px;
   height: 50px;
-  left: 801px;
-  top: 1588px;
+  left: 806px;
+  top: 1620px;
   background: var(--logo-color);
 }
 
@@ -647,8 +668,8 @@ h3 {
   position: absolute;
   width: 119px;
   height: 33px;
-  left: 51px;
-  top: 1947px;
+  left: 56px;
+  top: 1956px;
   background: #1e2e36;
   font-family: Proxima Nova;
   font-style: normal;
@@ -665,7 +686,7 @@ h3 {
   width: 119px;
   height: 33px;
   left: 56px;
-  top: 2427px;
+  top: 2316px;
   background: #1e2e36;
   font-family: Proxima Nova;
   font-style: normal;
@@ -687,7 +708,7 @@ h3 {
   width: 143px;
   height: 33px;
   left: 689px;
-  top: 1948px;
+  top: 1955px;
   background: #1e2e36;
   font-family: Proxima Nova;
   font-style: normal;
@@ -709,7 +730,7 @@ h3 {
   width: 84px;
   height: 33px;
   left: 689px;
-  top: 1987px;
+  top: 1993px;
   background: #ff1b1b;
   font-family: Proxima Nova;
   font-style: normal;
@@ -731,7 +752,7 @@ h3 {
   width: 143px;
   height: 33px;
   left: 1322px;
-  top: 2361px;
+  top: 2316px;
   background: #1e2e36;
   font-family: Proxima Nova;
   font-style: normal;
@@ -748,7 +769,7 @@ h3 {
   width: 84px;
   height: 33px;
   left: 1322px;
-  top: 2401px;
+  top: 2355px;
   background: #ff1b1b;
   font-family: Proxima Nova;
   font-style: normal;
@@ -785,6 +806,7 @@ h3 {
   grid-template-columns: repeat(auto-fill, minmax(586px, 1fr));
   grid-gap: 1px 19px;
   max-width: calc(100%-100px);
+  margin-bottom: 50px;
 }
 
 .categories-button {
@@ -807,7 +829,6 @@ h3 {
 
 .about-us {
   margin-bottom: 100px;
-  margin-top: 100px;
   height: 785px;
 }
 
@@ -817,7 +838,7 @@ h3 {
   width: 20px;
   height: 50px;
   left: 953px;
-  top: 3069px;
+  top: 2872px;
   background: var(--logo-color);
 }
 
@@ -828,7 +849,7 @@ h3 {
   width: 791px;
   background-color: var(--list-color);
   padding: 50px 30px 50px 51px;
-  top: 3260px;
+  top: 3070px;
   left: 0;
 }
 
@@ -863,7 +884,7 @@ h3 {
   width: 15px;
   height: 465px;
   left: 791px;
-  top: 3260px;
+  top: 3070px;
   background: #44c697;
   border-radius: 0px 3px 3px 0px;
 }
@@ -895,8 +916,8 @@ h3 {
   z-index: 4;
   width: 528px;
   height: 457px;
-  left: 1392px;
-  top: 4185px;
+  left: 1460px;
+  top: 3977px;
   background-color: var(--list-color);
 }
 
@@ -904,8 +925,8 @@ h3 {
   position: absolute;
   width: 15px;
   height: 457px;
-  left: 1377px;
-  top: 4186px;
+  left: 1445px;
+  top: 3977px;
   background: #44c697;
   border-radius: 3px 0px 0px 3px;
 }
