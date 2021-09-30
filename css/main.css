@@ -381,9 +381,40 @@ h3 {
   background-color: var(--text-color);
 }
 
+.footer-bottom__center {
+  margin: 0 319px 0 0;
+}
+
+.footer-logo {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 125%;
+  margin: 0;
+}
+
+.footer-logo__text {
+  padding-bottom: 15px;
+  color: var(--list-color);
+}
+
+.footer-logo__letter {
+  color: var(--logo-color);
+}
+
+.footer-logo__svg {
+  padding-top: 15px;
+}
+
 .footer-img {
   width: 1089px;
   float: right;
+}
+
+.menu {
+  display: flex;
+  justify-content: baseline;
 }
 
 .footer-text-left {
@@ -416,6 +447,10 @@ h3 {
 
 .footer-social__svg {
   fill: aliceblue;
+}
+
+.footer-menu {
+  display: inline;
 }
 
 .hero {
