@@ -7,8 +7,9 @@
 }
 
 //logo footer
-.footer-bottom__center {
-  margin: 0 319px 0 0;
+.footer-top {
+  margin: 0;
+  width: 360px;
 }
 .footer-logo {
   font-family: Proxima Nova;
@@ -18,6 +19,7 @@
   line-height: 125%;
 
   margin: 0;
+  padding-bottom: 50px;
 }
 .footer-logo__text {
   //display: inline;
@@ -38,13 +40,26 @@
 }
 //menu
 .menu {
-  display: flex;
-  justify-content: baseline;
+  //display: flex;
+  //justify-content: baseline;
 }
-
-.footer-text-left {
-  position: absolute;
-  z-index: 5;
+.footer-menu {
+  display: flex;
+  //flex-basis: calc((50% - 45px) / 2);
+}
+.footer-menu__left {
+  flex-basis: calc((50% - 45px) / 2);
+  padding-bottom: 100px;
+}
+.footer-menu__center {
+  flex-basis: calc((70% - 45px) / 2);
+}
+.footer-menu__right {
+  flex-basis: calc((75% - 45px) / 2);
+}
+.footer-text__item {
+  //position: absolute;
+  //z-index: 5;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -54,7 +69,13 @@
   text-transform: uppercase;
   color: var(--list-color);
 
-  background-color: bisque;
+  //background-color: bisque;
+}
+a.footer-text-left {
+  color: aliceblue;
+}
+.footer-text__item:not(:last-child) {
+  margin-bottom: 15px;
 }
 .footer-text-right {
   font-family: Proxima Nova;
@@ -76,6 +97,31 @@
 .footer-social__svg {
   fill: aliceblue;
 }
-.footer-menu {
-  display: inline;
+
+.fooret-bottom {
+  display: inline-flex;
+}
+.footer-copyright {
+  width: 255px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+
+  display: flex;
+  align-items: center;
+}
+.footer-author {
+  width: 238px;
+  margin: 0;
+  font-family: Cuprum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
