@@ -164,6 +164,7 @@ header {
 
 a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 ul {
@@ -440,11 +441,11 @@ h3 {
   color: var(--list-color);
 }
 
-a.footer-text-left {
-  color: aliceblue;
+.footer-text__item:hover {
+  color: var(--logo-color);
 }
 
-.footer-text__item:not(:last-child) {
+.footer-points:not(:last-child) {
   margin-bottom: 15px;
 }
 
@@ -456,7 +457,6 @@ a.footer-text-left {
   line-height: 125%;
   text-transform: uppercase;
   color: #44c697;
-  background-color: chocolate;
 }
 
 .footer-text__item {
@@ -464,7 +464,36 @@ a.footer-text-left {
 }
 
 .footer-social__svg {
-  fill: aliceblue;
+  margin-right: 5px;
+}
+
+.footer-svg {
+  fill: #ffffff;
+}
+
+.footer-social__text {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 125%;
+  align-items: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.footer-social__text:hover {
+  color: var(--logo-color);
+}
+
+.dash {
+  color: var(--logo-color);
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 125%;
+  padding-right: 5px;
 }
 
 .fooret-bottom {
