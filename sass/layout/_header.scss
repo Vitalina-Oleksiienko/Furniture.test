@@ -40,13 +40,17 @@
   //margin-top: 10px 5px 0 0;
   margin: 0 50px 0 0;
 }
+.telegram:hover {
+  fill: var(--logo-color);
+}
 .header-social__item {
   width: 40px;
   height: 40px;
 }
 .header-phone {
-  display: table;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -57,8 +61,23 @@
 
   color: var (--text-color);
 }
-.header-phone__icon {
-  margin-top: 8px;
+.header-phone:hover {
+  color: var(--logo-color);
+}
+.phone {
+  stroke: var(--text-color);
+}
+.phone:hover {
+  stroke: var(--logo-color);
+}
+.header-phone__text {
+  display: table-cell;
+  vertical-align: baseline;
+  height: 24px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  //margin-bottom: 10px;
 }
 .header-menu__item-current::after {
   content: "";
@@ -134,6 +153,9 @@
   padding-top: 27px;
 }
 .header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
@@ -145,7 +167,7 @@
 .header-logo__text {
   //display: inline;
   //margin: 15px 0 15px 0;
-  padding-bottom: 15px;
+  //padding-bottom: 15px;
 }
 .header-logo__letter {
   color: var(--logo-color);
@@ -168,11 +190,14 @@
   display: inline-flex;
 }
 .header-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 30px;
   //margin-top: 0;
   margin-bottom: 0;
   margin-top: 0;
-  padding-top: 37.5px;
+  //padding-top: 37.5px;
 }
 
 .header-cart__text {

@@ -238,7 +238,16 @@
   text-transform: uppercase;
   margin-top: 10px;
 }
-
+.current::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  height: 4px;
+  background-color: var(--logo-color);
+  border-radius: 2px;
+}
 .categories-item__bed {
   display: grid;
 
@@ -278,4 +287,10 @@
   text-transform: uppercase;
 
   color: var(--list-color);
+}
+.furniture {
+  fill: var(--text-color);
+}
+.furniture:hover {
+  fill: var(--logo-color);
 }
