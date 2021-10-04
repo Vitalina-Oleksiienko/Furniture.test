@@ -261,7 +261,8 @@
 .categories-bed {
   width: 586px;
 }
-.categories-bed:hover .categories-bed:focus {
+.categories-bed:hover,
+.categories-bed:focus {
   transform: scale(1.1);
   background-color: var(--logo-color);
 }
