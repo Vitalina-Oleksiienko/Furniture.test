@@ -9,12 +9,13 @@
   z-index: -1;
   width: 20px;
   height: 50px;
-  left: 734px;
-  top: 3953px;
+  left: 686px;
+  top: 6px;
 
   background: var(--logo-color);
 }
 .question {
+  position: relative;
   height: 785px;
   margin-bottom: 100px;
 }
@@ -23,16 +24,16 @@
   z-index: 4;
   width: 528px;
   height: 457px;
-  left: 1460px;
-  top: 3977px;
+  left: 1405px;
+  top: 213px;
   background-color: var(--list-color);
 }
 .line-form {
   position: absolute;
   width: 15px;
   height: 457px;
-  left: 1445px;
-  top: 3977px;
+  left: 1391px;
+  top: 213px;
 
   background: #44c697;
   border-radius: 3px 0px 0px 3px;

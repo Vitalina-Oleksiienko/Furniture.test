@@ -1,4 +1,5 @@
 .about-us {
+  position: relative;
   //padding-bottom: 100px;
   margin-bottom: 100px;
   //margin-top: 100px;
@@ -9,8 +10,8 @@
   z-index: -2;
   width: 20px;
   height: 50px;
-  left: 953px;
-  top: 2872px;
+  left: 899px;
+  top: 6px;
 
   background: var(--logo-color);
 }
@@ -22,7 +23,7 @@
   width: 791px;
   background-color: var(--list-color);
   padding: 50px 30px 50px 51px;
-  top: 3070px;
+  top: 199px;
   left: 0;
 }
 
@@ -56,7 +57,7 @@
   width: 15px;
   height: 465px;
   left: 791px;
-  top: 3070px;
+  top: 199px;
 
   background: #44c697;
   border-radius: 0px 3px 3px 0px;
