@@ -996,17 +996,6 @@ h3 {
   padding-bottom: 5px;
 }
 
-.current::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 15%;
-  height: 4px;
-  background-color: var(--logo-color);
-  border-radius: 2px;
-}
-
 .categories-item__bed {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(586px, 1fr));
@@ -1017,7 +1006,7 @@ h3 {
   width: 586px;
 }
 
-.categories-bed:hover {
+.categories-bed:hover .categories-bed:focus {
   transform: scale(1.1);
   background-color: var(--logo-color);
 }
@@ -1044,7 +1033,8 @@ h3 {
   fill: var(--text-color);
 }
 
-.furniture:hover {
+.furniture:hover,
+.furniture:focus {
   fill: var(--logo-color);
 }
 
