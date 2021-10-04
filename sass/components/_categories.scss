@@ -237,6 +237,14 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 10px;
+
+  border-bottom: 4px solid none;
+  padding-bottom: 5px;
+}
+.categories-item:hover,
+.categories-item:focus {
+  border-bottom: 4px solid var(--logo-color);
+  padding-bottom: 5px;
 }
 .current::after {
   content: "";

@@ -546,7 +546,7 @@ h3 {
   line-height: 120%;
   color: var(--list-color);
   align-items: center;
-  margin: 0;
+  margin: 0 208px 0 51px;
 }
 
 .footer-author {
@@ -986,6 +986,14 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   margin-top: 10px;
+  border-bottom: 4px solid none;
+  padding-bottom: 5px;
+}
+
+.categories-item:hover,
+.categories-item:focus {
+  border-bottom: 4px solid var(--logo-color);
+  padding-bottom: 5px;
 }
 
 .current::after {
