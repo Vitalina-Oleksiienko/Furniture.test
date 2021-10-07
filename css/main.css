@@ -20,7 +20,8 @@ body {
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 hr {
@@ -41,7 +42,8 @@ code,
 kbd,
 pre,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+    monospace;
   font-size: 1em;
 }
 
@@ -1114,7 +1116,7 @@ h3 {
   position: absolute;
   z-index: 3;
   width: 15px;
-  height: 465px;
+  height: 510px;
   left: 791px;
   top: 199px;
   background: #44c697;
