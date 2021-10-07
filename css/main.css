@@ -137,6 +137,14 @@ summary {
   display: list-item;
 }
 
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../../fonts/ProximaNova-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .container {
   width: 1980px;
   padding: 0 51px 0 51px;
@@ -397,6 +405,7 @@ h3 {
 }
 
 .footer {
+  position: relative;
   background-color: var(--text-color);
 }
 
@@ -431,31 +440,40 @@ h3 {
 }
 
 .footer-img {
+  position: absolute;
+  right: 114px;
   width: 1089px;
   height: 520px;
   float: right;
 }
 
 .menu {
+  display: flex;
+  flex-direction: column;
   width: 831px;
 }
 
 .footer-menu {
   display: flex;
-  padding-top: 75px;
 }
 
 .footer-menu__left {
-  flex-basis: calc((50% - 45px) / 2);
+  flex-basis: calc((35% - 45px) / 2);
   padding-bottom: 100px;
+  margin-right: 55px;
 }
 
 .footer-menu__center {
-  flex-basis: calc((70% - 45px) / 2);
+  flex-basis: calc((65% - 45px) / 2);
+  margin-right: 89px;
 }
 
 .footer-menu__right {
-  flex-basis: calc((75% - 45px) / 2);
+  flex-basis: calc((57% - 45px) / 2);
+}
+
+.footer-text-left {
+  margin: 0;
 }
 
 .footer-text__item {
@@ -531,7 +549,8 @@ h3 {
   padding-right: 5px;
 }
 
-.fooret-bottom {
+.footer-bottom {
+  margin-bottom: 15px;
   width: 200px;
 }
 
@@ -544,7 +563,7 @@ h3 {
   line-height: 120%;
   color: var(--list-color);
   align-items: center;
-  margin: 0 208px 0 51px;
+  margin: 0 173px 0 0;
 }
 
 .footer-author {
@@ -1084,7 +1103,7 @@ h3 {
 }
 
 .about-us__info {
-  font-family: Proxima Nova;
+  font-family: "Proxima Nova";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

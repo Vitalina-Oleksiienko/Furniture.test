@@ -35,7 +35,7 @@
 .first-word {
   display: inline;
   color: var(--logo-color);
-  font-family: Proxima Nova;
+  font-family: "Proxima Nova";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -44,9 +44,8 @@
   text-transform: uppercase;
 }
 .about-us__info {
-  font-family: Proxima Nova;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Proxima Nova";
+
   font-size: 18px;
   line-height: 125%;
 }

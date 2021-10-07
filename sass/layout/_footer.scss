@@ -1,5 +1,5 @@
 .footer {
-  //position: relative;
+  position: relative;
   //height: 520px;
   //margin-bottom: 15px;
 
@@ -13,8 +13,7 @@
 }
 .footer-logo {
   float: left;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 36px;
   line-height: 125%;
@@ -38,35 +37,43 @@
 }
 
 .footer-img {
+  position: absolute;
+  right: 114px;
   width: 1089px;
   height: 520px;
   float: right;
 }
 //menu
 .menu {
-  //display: block;
+  display: flex;
+  flex-direction: column;
+
   width: 831px;
 }
 .footer-menu {
   display: flex;
   //flex-basis: calc((50% - 45px) / 2);
-  padding-top: 75px;
+  //padding-top: 75px;
 }
 .footer-menu__left {
-  flex-basis: calc((50% - 45px) / 2);
+  flex-basis: calc((35% - 45px) / 2);
   padding-bottom: 100px;
+  margin-right: 55px;
 }
 .footer-menu__center {
-  flex-basis: calc((70% - 45px) / 2);
+  flex-basis: calc((65% - 45px) / 2);
+  margin-right: 89px;
 }
 .footer-menu__right {
-  flex-basis: calc((75% - 45px) / 2);
+  flex-basis: calc((57% - 45px) / 2);
+}
+.footer-text-left {
+  margin: 0;
 }
 .footer-text__item {
   //position: absolute;
   //z-index: 5;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -84,8 +91,7 @@
   margin-bottom: 15px;
 }
 .footer-text-right {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -114,8 +120,7 @@
   stroke: var(--logo-color);
 }
 .footer-social__text {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: normal;
   font-size: 18px;
   line-height: 125%;
@@ -132,28 +137,26 @@
 }
 .dash {
   color: var(--logo-color);
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
   padding-right: 5px;
 }
-.fooret-bottom {
-  //display: inline-block;
+.footer-bottom {
+  margin-bottom: 15px;
   width: 200px;
 }
 .footer-copyright {
   width: 255px;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: normal;
   font-size: 14px;
   line-height: 120%;
 
   color: var(--list-color);
   align-items: center;
-  margin: 0 208px 0 51px;
+  margin: 0 173px 0 0;
 }
 .footer-author {
   width: 238px;
@@ -167,6 +170,8 @@
   text-transform: uppercase;
 
   color: var(--list-color);
+}
+.footer-author__text {
 }
 .left {
   margin: 0;
