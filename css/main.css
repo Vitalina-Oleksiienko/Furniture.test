@@ -20,8 +20,7 @@ body {
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 hr {
@@ -42,8 +41,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
-    monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   font-size: 1em;
 }
 
@@ -147,6 +145,22 @@ summary {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../../fonts/ProximaNova-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-display: swap;
+  src: url("../../fonts/ProximaNova-Light.woff") format("woff");
+  font-weight: normal;
+}
+
 .container {
   width: 1980px;
   padding: 0 51px 0 51px;
@@ -224,8 +238,7 @@ h3 {
 }
 
 .header-title {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -255,8 +268,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -299,8 +311,7 @@ h3 {
   position: relative;
   display: inline-flex;
   justify-content: flex-end;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -320,8 +331,7 @@ h3 {
   padding-top: 41px;
   padding-bottom: 41px;
   text-transform: uppercase;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -341,8 +351,7 @@ h3 {
   background: var(--logo-color);
   border-radius: 3px;
   border-color: var(--list-color);
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -358,8 +367,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 36px;
   line-height: 125%;
@@ -397,8 +405,7 @@ h3 {
 }
 
 .header-cart__text {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -408,24 +415,19 @@ h3 {
 
 .footer {
   position: relative;
+  height: 520px;
   background-color: var(--text-color);
-}
-
-.footer-top {
-  margin: 0 50px 0 0;
-  width: 360px;
 }
 
 .footer-logo {
   float: left;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 36px;
   line-height: 125%;
   margin: 0;
-  padding-top: 50.06px;
-  padding-bottom: 50px;
+  padding-top: 31.06px;
+  padding-bottom: 40px;
 }
 
 .footer-logo__text {
@@ -471,7 +473,7 @@ h3 {
 }
 
 .footer-menu__right {
-  flex-basis: calc((57% - 45px) / 2);
+  flex-basis: calc((60% - 45px) / 2);
 }
 
 .footer-text-left {
@@ -479,8 +481,7 @@ h3 {
 }
 
 .footer-text__item {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -497,8 +498,7 @@ h3 {
 }
 
 .footer-text-right {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -526,8 +526,7 @@ h3 {
 }
 
 .footer-social__text {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: normal;
   font-size: 18px;
   line-height: 125%;
@@ -543,8 +542,7 @@ h3 {
 
 .dash {
   color: var(--logo-color);
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -558,8 +556,7 @@ h3 {
 
 .footer-copyright {
   width: 255px;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: normal;
   font-size: 14px;
   line-height: 120%;
@@ -621,19 +618,18 @@ h3 {
 }
 
 .hero-new {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 64px;
   line-height: 100%;
   color: #1e2e36;
-  margin-top: 0;
+  margin: 0 0 50px 0;
   padding-top: 99px;
 }
 
 .hero-text {
-  font-family: Proxima Nova;
-  font-style: normal;
+  margin: 0 0 10px 0;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 36px;
   line-height: 125%;
@@ -641,8 +637,8 @@ h3 {
 }
 
 .hero-info {
-  font-family: Proxima Nova;
-  font-style: normal;
+  margin: 0 0 30px 0;
+  font-family: "Proxima Nova";
   font-weight: normal;
   font-size: 36px;
   line-height: 125%;
@@ -662,8 +658,7 @@ h3 {
   background: #44c697;
   border-radius: 3px;
   border-color: var(--list-color);
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -684,7 +679,7 @@ h3 {
 }
 
 .hero-count {
-  margin-top: 160px;
+  margin-top: 120px;
 }
 
 .advantage-section {
@@ -695,8 +690,7 @@ h3 {
 }
 
 .advantage-title {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 48px;
   line-height: 125%;
@@ -715,8 +709,8 @@ h3 {
   position: absolute;
   z-index: -1;
   width: 20px;
-  height: 50px;
-  left: 801px;
+  height: 47px;
+  left: 792px;
   top: 6px;
   background: var(--logo-color);
 }
@@ -732,8 +726,7 @@ h3 {
   height: 45px;
   left: 27px;
   top: 250px;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 29px;
   line-height: 125%;
@@ -794,8 +787,7 @@ h3 {
 
 .categories-title {
   margin-bottom: 50px;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 48px;
   line-height: 125%;
@@ -817,8 +809,7 @@ h3 {
 }
 
 .categories-bed-name {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 24px;
   line-height: 125%;
@@ -831,8 +822,7 @@ h3 {
 .categories-price {
   justify-content: flex-end;
   margin-top: 0;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 24px;
   line-height: 125%;
@@ -842,8 +832,7 @@ h3 {
 }
 
 .categories-price__red {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 24px;
   line-height: 125%;
@@ -857,8 +846,7 @@ h3 {
 .categories-price__sale {
   margin-top: 0;
   padding-top: 6px;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -875,8 +863,7 @@ h3 {
   left: 2px;
   top: 10px;
   background: #1e2e36;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -896,8 +883,7 @@ h3 {
   left: 0px;
   top: 366px;
   background: #1e2e36;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -918,8 +904,7 @@ h3 {
   left: 626px;
   top: 10px;
   background: #1e2e36;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -940,8 +925,7 @@ h3 {
   left: 626px;
   top: 47px;
   background: #ff1b1b;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -962,8 +946,7 @@ h3 {
   left: 1253px;
   top: 366px;
   background: #1e2e36;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -979,8 +962,7 @@ h3 {
   left: 1253px;
   top: 404px;
   background: #ff1b1b;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -1042,8 +1024,7 @@ h3 {
   background: var(--logo-color);
   border-radius: 3px;
   border-color: var(--logo-color);
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -1096,7 +1077,7 @@ h3 {
 .first-word {
   display: inline;
   color: var(--logo-color);
-  font-family: Proxima Nova;
+  font-family: "Proxima Nova";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1106,8 +1087,6 @@ h3 {
 
 .about-us__info {
   font-family: "Proxima Nova";
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 125%;
 }
@@ -1168,8 +1147,7 @@ h3 {
 
 .question-title {
   margin: 50px 99px 30px 30px;
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 36px;
   line-height: 125%;
@@ -1188,8 +1166,7 @@ h3 {
 }
 
 .question-input__label {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: normal;
   font-size: 18px;
   line-height: 125%;
@@ -1198,8 +1175,7 @@ h3 {
 }
 
 .question-button {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
@@ -1214,8 +1190,7 @@ h3 {
 }
 
 .question-text {
-  font-family: Proxima Nova;
-  font-style: normal;
+  font-family: "Proxima Nova";
   font-weight: normal;
   font-size: 18px;
   line-height: 125%;
