@@ -454,6 +454,7 @@ h3 {
 .menu {
   display: flex;
   flex-direction: column;
+  margin-left: 51px;
   width: 831px;
 }
 
@@ -462,13 +463,13 @@ h3 {
 }
 
 .footer-menu__left {
-  flex-basis: calc((35% - 45px) / 2);
+  flex-basis: calc((25%) / 2);
   padding-bottom: 100px;
   margin-right: 55px;
 }
 
 .footer-menu__center {
-  flex-basis: calc((65% - 45px) / 2);
+  flex-basis: calc((55%) / 2);
   margin-right: 89px;
 }
 
@@ -550,23 +551,23 @@ h3 {
 }
 
 .footer-bottom {
-  margin-bottom: 15px;
-  width: 200px;
+  display: inline-flex;
+  margin-left: 51px;
 }
 
 .footer-copyright {
+  display: inline-block;
   width: 255px;
   font-family: "Proxima Nova";
   font-weight: normal;
   font-size: 14px;
   line-height: 120%;
   color: var(--list-color);
-  align-items: center;
-  margin: 0 173px 0 0;
+  margin-right: 55px;
 }
 
 .footer-author {
-  width: 238px;
+  display: inline-flex;
   margin: 0;
   font-family: Cuprum;
   font-style: normal;
@@ -575,6 +576,10 @@ h3 {
   line-height: 16px;
   text-transform: uppercase;
   color: var(--list-color);
+}
+
+.footer-author__text {
+  padding-bottom: 10px;
 }
 
 .left {
@@ -780,8 +785,8 @@ h3 {
   z-index: -1;
   width: 20px;
   height: 50px;
-  left: 752px;
-  top: 5px;
+  left: 712px;
+  top: 3px;
   background: var(--logo-color);
 }
 
@@ -1095,7 +1100,7 @@ h3 {
   position: absolute;
   z-index: 3;
   width: 15px;
-  height: 510px;
+  height: 503px;
   left: 791px;
   top: 199px;
   background: #44c697;
