@@ -163,9 +163,6 @@
   margin-right: 55px;
 }
 .footer-author {
-  display: inline-flex;
-  //align-items: center;
-
   //width: 238px;
   margin: 0;
   font-family: Cuprum;
@@ -179,9 +176,8 @@
   color: var(--list-color);
 }
 .footer-author__text {
-  padding-bottom: 10px;
-  //display: flex;
-  //align-items: center;
+  display: inline-block;
+  vertical-align: super;
 }
 .left {
   margin: 0;
