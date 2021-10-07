@@ -513,7 +513,8 @@ h3 {
   color: var(--list-color);
 }
 
-.footer-social__svg {
+.contact {
+  fill: #ffffff;
   margin-right: 5px;
   margin-bottom: 15px;
 }
