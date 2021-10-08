@@ -35,7 +35,7 @@
   left: 1391px;
   top: 213px;
 
-  background: #44c697;
+  background: var(--logo-color);
   border-radius: 3px 0px 0px 3px;
 }
 
@@ -46,7 +46,6 @@
   font-size: 36px;
   line-height: 125%;
 
-  //align-items: center;
   text-align: center;
 }
 
@@ -59,7 +58,7 @@
 
   background: var(--list-color);
 
-  border: 1px solid #1e2e36;
+  border: 1px solid var(--text-color);
   box-sizing: border-box;
   border-radius: 3px;
 }
@@ -70,7 +69,7 @@
   font-size: 18px;
   line-height: 125%;
 
-  color: #1e2e36;
+  color: var(--text-color);
 
   opacity: 0.6;
 }
@@ -82,12 +81,12 @@
 
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--list-color);
 
   width: 432px;
   height: 51px;
   margin-left: 30px;
-  background: #44c697;
+  background: var(--logo-color);
   border-radius: 3px;
   border-color: var(--list-color);
   cursor: pointer;
