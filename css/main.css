@@ -343,6 +343,11 @@ h3 {
   margin-right: 15px;
 }
 
+.header-filter__item:hover,
+.header-filter__item:focus {
+  color: var(--logo-color);
+}
+
 .header-button__text {
   flex-direction: row;
   align-items: center;
