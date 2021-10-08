@@ -614,9 +614,20 @@ h3 {
   color: var(--list-color);
 }
 
+.right:hover,
+.right:focus {
+  color: var(--logo-color);
+}
+
 .up {
   width: 50px;
   height: 50px;
+  fill: var(--list-color);
+}
+
+.up:hover,
+.up:focus {
+  fill: var(--logo-color);
 }
 
 .scrollup {
@@ -628,7 +639,11 @@ h3 {
   height: 50px;
   border-radius: 50%;
   background-color: var(--logo-color);
-  border-color: var(--logo-color);
+}
+
+.scrollup:hover,
+.scrollup:focus {
+  background-color: #bef3e0;
 }
 
 .arrow {
