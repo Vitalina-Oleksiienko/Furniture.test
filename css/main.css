@@ -521,7 +521,7 @@ h3 {
   font-size: 18px;
   line-height: 125%;
   text-transform: uppercase;
-  color: #44c697;
+  color: var(--logo-color);
 }
 
 .footer-text__item {
@@ -537,8 +537,8 @@ h3 {
 }
 
 .footer-svg {
-  fill: #ffffff;
-  stroke: #ffffff;
+  fill: var(--list-color);
+  stroke: var(--list-color);
 }
 
 .footer-svg:hover {
@@ -553,13 +553,13 @@ h3 {
   font-size: 18px;
   line-height: 125%;
   align-items: center;
-  color: #ffffff;
+  color: var(--list-color);
   mix-blend-mode: normal;
 }
 
 .footer-social__text:hover {
   color: var(--logo-color);
-  fill: #44c697;
+  fill: var(--logo-color);
 }
 
 .footer-contact__text {
