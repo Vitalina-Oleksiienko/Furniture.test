@@ -912,6 +912,10 @@ h3 {
   margin-right: 160px;
 }
 
+.categories-img {
+  z-index: -1;
+}
+
 .categories-item_info {
   display: inline-flex;
 }
@@ -924,6 +928,14 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #1e2e36;
+  margin-right: 166px;
+}
+
+.bed {
+  margin-right: 250px;
+}
+
+.bed-lux {
   margin-right: 166px;
 }
 
@@ -1009,7 +1021,7 @@ h3 {
   position: absolute;
   width: 143px;
   height: 33px;
-  left: 626px;
+  left: 607px;
   top: 10px;
   background: #1e2e36;
   font-family: "Proxima Nova";
@@ -1030,7 +1042,7 @@ h3 {
   position: absolute;
   width: 84px;
   height: 33px;
-  left: 626px;
+  left: 607px;
   top: 47px;
   background: #ff1b1b;
   font-family: "Proxima Nova";
