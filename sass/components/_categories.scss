@@ -46,7 +46,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #1e2e36;
+  color: var(--text-color);
 
   margin-right: 166px;
 }
@@ -68,7 +68,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #1e2e36;
+  color: var(--text-color);
 }
 .categories-price__red {
   font-family: "Proxima Nova";
@@ -79,7 +79,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #ff1b1b;
+  color: var(--accent-color);
   margin-top: 0;
   margin-right: 10px;
 }
@@ -104,7 +104,7 @@
   left: 2px;
   top: 10px;
 
-  background: #1e2e36;
+  background: var(--text-color);
   font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
@@ -113,9 +113,10 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--list-color);
 }
-.categories-new:hover {
+.categories-new:hover,
+.categories-new:focus {
   transform: scale(1.1);
 }
 .categories-new__imperia {
@@ -125,7 +126,7 @@
   left: 0px;
   top: 366px;
 
-  background: #1e2e36;
+  background: var(--text-color);
   font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
@@ -134,7 +135,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--list-color);
 }
 .categories-new__imperia:hover {
   transform: scale(1.1);
@@ -160,7 +161,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--list-color);
 }
 .categories-hit__text {
   margin: 0;
@@ -174,7 +175,7 @@
   left: 607px;
   top: 47px;
 
-  background: #ff1b1b;
+  background: var(--accent-color);
 
   font-family: "Proxima Nova";
   font-weight: bold;
@@ -184,7 +185,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--list-color);
 }
 .categories-sale__text {
   margin: 0;
@@ -206,7 +207,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--list-color);
 }
 .categories-sale__atlant {
   position: absolute;
@@ -215,7 +216,7 @@
   left: 1214px;
   top: 404px;
 
-  background: #ff1b1b;
+  background: var(--accent-color);
 
   font-family: "Proxima Nova";
   font-weight: bold;
@@ -225,14 +226,14 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--list-color);
 }
 .categories-item {
   margin-left: auto;
   margin-right: auto;
 }
 .categories-item__svg {
-  fill: #1e2e36;
+  fill: var(--text-color);
 }
 .categories-link__svg:hover .categories-item__svg {
   fill: var(--logo-color);
