@@ -663,9 +663,7 @@ h3 {
 
 .hero {
   position: relative;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 100px auto;
   background: var(--title-color, #2f303a);
   padding: 0px 0;
   text-align: center;
