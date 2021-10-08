@@ -792,7 +792,7 @@ h3 {
 
 .advantage-section {
   position: relative;
-  width: 1980px;
+  width: 1889px;
   padding: 0 51px 0 0px;
   margin-bottom: 100px;
 }
@@ -838,7 +838,7 @@ h3 {
   font-weight: bold;
   font-size: 29px;
   line-height: 125%;
-  color: #ffffff;
+  color: var(--list-color);
 }
 
 .advantage-img__text::after {
@@ -881,6 +881,7 @@ h3 {
 .categories-section {
   margin-bottom: 100px;
   position: relative;
+  width: 1851px;
 }
 
 .categories-line {
