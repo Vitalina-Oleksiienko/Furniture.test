@@ -1085,6 +1085,7 @@ h3 {
   position: absolute;
   z-index: 2;
   clear: both;
+  height: 475px;
   width: 791px;
   background-color: var(--list-color);
   padding: 50px 30px 50px 51px;
@@ -1119,7 +1120,7 @@ h3 {
   position: absolute;
   z-index: 3;
   width: 15px;
-  height: 509px;
+  height: 475px;
   left: 791px;
   top: 199px;
   background: #44c697;
