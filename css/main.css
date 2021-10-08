@@ -1233,7 +1233,7 @@ h3 {
   height: 475px;
   left: 791px;
   top: 199px;
-  background: #44c697;
+  background: var(--logo-color);
   border-radius: 0px 3px 3px 0px;
 }
 
