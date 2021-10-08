@@ -1012,9 +1012,9 @@ h3 {
   position: absolute;
   width: 143px;
   height: 33px;
-  left: 607px;
+  left: 616px;
   top: 10px;
-  background: #1e2e36;
+  background: var(--text-color);
   font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
@@ -1033,7 +1033,7 @@ h3 {
   position: absolute;
   width: 84px;
   height: 33px;
-  left: 607px;
+  left: 616px;
   top: 47px;
   background: var(--accent-color);
   font-family: "Proxima Nova";
@@ -1056,7 +1056,7 @@ h3 {
   height: 33px;
   left: 1214px;
   top: 366px;
-  background: #1e2e36;
+  background: var(--text-color);
   font-family: "Proxima Nova";
   font-weight: bold;
   font-size: 18px;
@@ -1122,7 +1122,7 @@ h3 {
 
 .categories-bed:hover,
 .categories-bed:focus {
-  transform: scale(1.1);
+  transform: scale(1.02);
   background-color: var(--logo-color);
 }
 
