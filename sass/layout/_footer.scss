@@ -193,6 +193,7 @@
 
   color: var(--list-color);
 }
+
 .footer-author__text {
   display: inline-block;
   vertical-align: super;
@@ -202,4 +203,24 @@
 }
 .right {
   color: var(--list-color);
+}
+.up {
+  width: 50px;
+  height: 50px;
+}
+.scrollup {
+  position: absolute;
+  z-index: 3;
+  top: -12px;
+  left: 27px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--logo-color);
+  border-color: var(--logo-color);
+}
+.arrow {
+  left: 15px;
+  top: 12px;
+  position: absolute;
 }
