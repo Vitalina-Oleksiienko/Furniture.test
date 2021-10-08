@@ -279,6 +279,14 @@
 
   color: var(--list-color);
 }
+.categories-button:hover,
+.categories-button:focus {
+  cursor: pointer;
+  box-shadow: inset 0 0 20px #bfe2ff;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  color: var(--list-color);
+}
 .furniture {
   fill: var(--text-color);
 }

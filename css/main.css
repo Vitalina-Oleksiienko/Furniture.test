@@ -400,6 +400,15 @@ h3 {
   display: inline-flex;
 }
 
+.header-button__text:hover,
+.header-button__text:focus {
+  cursor: pointer;
+  box-shadow: inset 0 0 20px #bfe2ff;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  color: var(--list-color);
+}
+
 .header-cart {
   display: flex;
   justify-content: center;
@@ -731,6 +740,38 @@ h3 {
   line-height: 125%;
   text-transform: uppercase;
   color: var(--list-color);
+  cursor: pointer;
+  border: 2px solid #bfe2ff;
+  outline: 1px solid;
+  outline-color: var(--logo-color);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  box-shadow: inset 0 0 20px #bfe2ff;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  color: var(--list-color);
+}
+
+.hero-button:hover {
+  outline: 0;
+}
+
+.btn {
+  border-color: var(--logo-color);
+  color: var(--list-color);
+  box-shadow: 0 0 40px 40px var(--logo-color) inset, 0 0 0 0 var(--logo-color);
+  transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 0 10px 0 --logo-color inset, 0 0 10px 4px --logo-color;
 }
 
 .hero-date {
@@ -1099,6 +1140,15 @@ h3 {
   color: var(--list-color);
 }
 
+.categories-button:hover,
+.categories-button:focus {
+  cursor: pointer;
+  box-shadow: inset 0 0 20px #bfe2ff;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  color: var(--list-color);
+}
+
 .furniture {
   fill: var(--text-color);
 }
@@ -1255,6 +1305,15 @@ h3 {
   background: #44c697;
   border-radius: 3px;
   border-color: var(--list-color);
+  cursor: pointer;
+}
+
+.question-button:hover,
+.question-button:focus {
+  box-shadow: inset 0 0 20px #bfe2ff;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  color: var(--list-color);
 }
 
 .question-text {
