@@ -513,10 +513,12 @@ h3 {
   color: var(--list-color);
 }
 
+.footer-contact:not(:last-child) {
+  margin-bottom: 16px;
+}
+
 .contact {
-  fill: #ffffff;
   margin-right: 5px;
-  margin-bottom: 15px;
 }
 
 .footer-svg {
@@ -530,6 +532,7 @@ h3 {
 }
 
 .footer-social__text {
+  display: inline-flex;
   font-family: "Proxima Nova";
   font-weight: normal;
   font-size: 18px;
@@ -542,6 +545,14 @@ h3 {
 .footer-social__text:hover {
   color: var(--logo-color);
   fill: #44c697;
+}
+
+.footer-contact__text {
+  padding-top: 5px;
+}
+
+.phone-two {
+  margin-top: 20px;
 }
 
 .dash {
