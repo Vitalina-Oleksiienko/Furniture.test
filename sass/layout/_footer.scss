@@ -41,7 +41,7 @@
 .footer-img {
   position: absolute;
   right: 0px;
-  width: 1089px;
+  width: 1000px;
   height: 520px;
   float: right;
 }
@@ -50,6 +50,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 51px;
+  margin-bottom: 20px;
   width: 676px;
 }
 .footer-menu {
@@ -64,11 +65,11 @@
 }
 .footer-menu__center {
   flex-basis: calc((70% -15px) / 2);
-  //margin-right: 89px;
+  margin-right: 75px;
 }
 .footer-menu__right {
-  flex-basis: calc((67% - 15px) / 2);
-  margin-left: auto;
+  flex-basis: calc((69% - 15px) / 2);
+  //margin-left: auto;
   margin-right: auto;
 }
 .footer-text-left {
@@ -147,7 +148,7 @@
   padding-top: 5px;
 }
 .footer-contact__phone {
-  //padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 .phone-two {
@@ -177,7 +178,7 @@
 
   color: var(--list-color);
 
-  margin-right: 55px;
+  margin-right: 100px;
 }
 .footer-author {
   //width: 238px;

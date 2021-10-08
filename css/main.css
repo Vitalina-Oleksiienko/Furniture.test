@@ -447,7 +447,7 @@ h3 {
 .footer-img {
   position: absolute;
   right: 0px;
-  width: 1089px;
+  width: 1000px;
   height: 520px;
   float: right;
 }
@@ -456,6 +456,7 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-left: 51px;
+  margin-bottom: 20px;
   width: 676px;
 }
 
@@ -471,11 +472,11 @@ h3 {
 
 .footer-menu__center {
   flex-basis: calc((70% -15px) / 2);
+  margin-right: 75px;
 }
 
 .footer-menu__right {
-  flex-basis: calc((67% - 15px) / 2);
-  margin-left: auto;
+  flex-basis: calc((69% - 15px) / 2);
   margin-right: auto;
 }
 
@@ -551,6 +552,10 @@ h3 {
   padding-top: 5px;
 }
 
+.footer-contact__phone {
+  margin-bottom: 20px;
+}
+
 .phone-two {
   margin-top: 20px;
 }
@@ -577,7 +582,7 @@ h3 {
   font-size: 14px;
   line-height: 120%;
   color: var(--list-color);
-  margin-right: 55px;
+  margin-right: 100px;
 }
 
 .footer-author {
