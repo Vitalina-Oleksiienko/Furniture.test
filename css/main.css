@@ -1010,9 +1010,10 @@ h3 {
 
 .categories-hit {
   position: absolute;
+  z-index: 2;
   width: 143px;
   height: 33px;
-  left: 616px;
+  left: 0;
   top: 10px;
   background: var(--text-color);
   font-family: "Proxima Nova";
@@ -1031,9 +1032,10 @@ h3 {
 
 .categories-sale {
   position: absolute;
+  z-index: 2;
   width: 84px;
   height: 33px;
-  left: 616px;
+  left: 0;
   top: 47px;
   background: var(--accent-color);
   font-family: "Proxima Nova";
@@ -1117,6 +1119,7 @@ h3 {
 }
 
 .categories-bed {
+  position: relative;
   width: 586px;
 }
 
